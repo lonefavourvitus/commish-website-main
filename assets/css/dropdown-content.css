@@ -49,7 +49,7 @@
 } */
 
 .inner-content {
-  padding: 1.8rem;
+  padding: 1.8rem 1.8rem 0rem;
 }
 li{
   list-style-type: disc;
@@ -69,7 +69,7 @@ h3 {
 }
 
 .collapse:target .content {
-  max-height: 14em;
+  max-height: fit-content;
 }
 .collapse:target a {
   color: #B78700;
@@ -105,7 +105,7 @@ h3 {
     text-align: start ;
   }
   .inner-content {
-    padding: 1.2rem;
+    padding: 1.2rem 1.2rem 0rem;
   }
   .inner-content h3 {
     margin-bottom: 0.3rem;
@@ -120,7 +120,7 @@ h3 {
     text-align:start ;
   }
   .inner-content {
-    padding: 0.8rem;
+    padding: 0.8rem 0.8rem 0rem;
   }
   .inner-content h3 {
     margin-bottom: 0.3rem;
