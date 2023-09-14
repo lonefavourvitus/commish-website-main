@@ -438,9 +438,10 @@ body {
   height: 100%;
 }
 
-/* About page */
+.social {
+  gap: 2.5rem;
+}
 
-/* books page */
 .c_contain {
   width: 100%;
 }
@@ -545,9 +546,10 @@ body {
   }
 
   .c_nav {
-    background-color: #2B2B2B !important;
+    background-color: #fff !important;
     justify-content: start !important;
     padding: 0 20px;
+    opacity: 0.8;
   }
 
   .c_nav-list {
@@ -592,6 +594,10 @@ body {
 
   .c_debut-2 {
     padding: var(--c_space);
+  }
+
+  .c_header{
+    padding: 10px 0px 50px;
   }
 
   .c_issues>h4 {
@@ -645,12 +651,20 @@ body {
     flex-wrap: nowrap !important;
   }
 
+  .social {
+    gap: 1.5rem;
+  }
+
   .works {
     padding: 100px 16px !important;
   }
 
   .projects {
     padding-top: 60px;
+  }
+
+  .footer-link {
+    font-size: 15px;
   }
 }
 
@@ -761,5 +775,9 @@ body {
 
   .c_copr {
     padding-left: 0px !important;
+  }
+
+  .social {
+    gap: 1.5rem;
   }
 }
