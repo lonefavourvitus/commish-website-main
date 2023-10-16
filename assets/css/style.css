@@ -64,7 +64,7 @@ body {
 }
 
 .nav-btn {
-  background-color: var(--c_color-2);
+  /* background-color: var(--c_color-2); */
 }
 
 .c_logo {
@@ -84,6 +84,7 @@ body {
 .c_nav-list>a>li {
   color: var(--c_color-2);
   list-style: none;
+  font-size: 18px;
 }
 
 .c_title {
@@ -171,11 +172,6 @@ body {
   padding: 30px 0;
   z-index: 2;
   position: relative;
-}
-
-.c_nav-list>a {
-  color: white;
-  border-bottom: 1px solid transparent;
 }
 
 .c_nav-list>a:hover {
@@ -298,7 +294,7 @@ body {
 
 .vision-section {
   /* background: #FFFfFf; */
-  padding: 100px 0;
+  padding: 30px 0;
 }
 
 .priority-main-head {
@@ -574,7 +570,7 @@ body {
   }
 
   .c_intro {
-    order: 2;
+    /* order: 1; */
     padding-top: 10%;
     text-align: center;
   }
@@ -597,7 +593,7 @@ body {
   }
 
   .c_header{
-    padding: 10px 0px 50px;
+    padding: 10px 0px 0px;
   }
 
   .c_issues>h4 {
