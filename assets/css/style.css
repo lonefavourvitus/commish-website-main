@@ -28,6 +28,7 @@ a {
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  font-size: 16px;
   color: var(--c_color-3);
   box-sizing: inherit;
 }
@@ -61,10 +62,6 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-}
-
-.nav-btn {
-  /* background-color: var(--c_color-2); */
 }
 
 .c_logo {
@@ -118,6 +115,16 @@ body {
   top: 34%;
 }
 
+.bio{
+  /* width: 30%; */
+  display: inline-block;
+}
+
+.inner-content>p{
+  display: flex;
+  /* width: 90%; */
+  justify-content: space-between;
+}
 .header-img {
   object-fit: cover;
   width: 100%;
@@ -212,7 +219,7 @@ body {
 }
 
 .c_debut-3 {
-  padding: 0 0 92px;
+  padding: 0 0 52px;
 }
 
 .c_issues-2>p {
@@ -220,7 +227,7 @@ body {
 }
 
 .c_about-content {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.35em;
 }
 
@@ -270,7 +277,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  /* 200% */
 }
 
 .about-sections {
@@ -278,12 +284,10 @@ body {
   width: 100%;
   color: #2B2B2B;
   padding: 16px 40px 16px 20px;
-  /* flex-direction: column; */
   align-items: flex-start;
   gap: 10px;
   border-radius: 10px;
   border: 1px solid #B78700;
-  /* background: rgba(255, 251, 240, 0.91); */
 }
 
 .svg-vicion-list {
@@ -293,18 +297,15 @@ body {
 }
 
 .vision-section {
-  /* background: #FFFfFf; */
   padding: 30px 0;
 }
 
 .priority-main-head {
   color: #2B2B2B;
-
-  font-size: 48px;
+  font-size: 2.3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
-  /* 125% */
   letter-spacing: -0.96px;
 }
 
@@ -322,6 +323,7 @@ body {
   gap: 10px;
   border-radius: 999px;
   background: #B78700;
+  color: #fff;
 }
 
 .issue-title-text {
@@ -329,16 +331,14 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
-  /* 100% */
 }
 
 .issue-content {
   color: #7A7A7A;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   margin: 0;
-  /* 177.778% */
 }
 
 .event-section {
@@ -357,17 +357,6 @@ body {
 .c_events>h6 {
   font-size: 20px;
 }
-
-/* .c_events>h6::after {
-  content: "";
-  display: block;
-  width: 130px;
-  height: 5px;
-  background: #191970;
-  right: 0;
-  top: 50%;
-  position: absolute;
-} */
 
 /* footer style */
 .c_footer-logo .c_title {
