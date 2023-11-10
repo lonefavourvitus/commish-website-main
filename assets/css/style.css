@@ -215,7 +215,7 @@ body {
 }
 
 .c_debut-2 {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .c_debut-3 {
@@ -235,12 +235,11 @@ body {
   font-size: 1rem;
   line-height: 1.25em;
   text-transform: uppercase;
-
 }
 
 .c_img-2 {
   width: 100%;
-  height: 100%;
+  /* height: 80%; */
   border: 1px transparent;
   border-top-left-radius: 10rem;
   border-bottom-left-radius: 4rem;
