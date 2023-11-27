@@ -24,6 +24,9 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--====== Mobile menu css ======-->
+    <link rel="stylesheet" href="assets/css/mobilenav.css">
+
     <!--====== Font style CDN ======-->
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
 
@@ -39,24 +42,40 @@
                 <h6 class="m-0 c_logo pt-1 fs-5">Legislator</h6>
             </div>
             <ul class="d-flex gap-5 m-0 p-0 list-unstyled fs  c_nav-list">
-                <a href="#index" class=" py-3">
+                <a href="./index.html" class=" py-3">
                     <li class="general-color">Home</li>
                 </a>
-                <a href="./about.html" class=" py-3">
-                    <li class="general-color">About</li>
+                <a href="./awards.html" class=" py-3">
+                    <li class="general-color">Awards</li>
                 </a>
 
-                <a href="#priorities" class="general-color py-3">
-                    <li>Awards</li>
+                <a href="./events.html" class="general-color py-3">
+                    <li>Events</li>
                 </a>
                 <a href="#contact" class="c_hover general-color py-3 text-center rounded-3">
-                    <li class="text-center">Contact me</li>
+                    <li class="text-center">Contact</li>
                 </a>
             </ul>
+
+             <!-- mobile menu button -->
+            <strong id="mobile-menu-btn" class="text-black fs-3"><i class="fa-solid fa-bars"></i></strong>
         </nav>
 
+        <!-- mobile menu -->
+        <div class="mobile-menu flex-column justify-content-around m-0 p-0">
+            <a href="./index.html" class="general-color py-3">Home
+            </a>
+            <a href="./awards.html" class="general-color py-3">Awards
+            </a>
+
+            <a href="./events.html" class="general-color py-3">Events
+            </a>
+            <a href="#contacts" class="c_hover general-color py-3 text-center rounded-3">Contact
+            </a>
+        </div>
+
         <!-- main header -->
-        <header class="c_bg container-fluid ">
+        <header class="c_bg container-fluid pt-5">
             <div class="row align-items-center c_header">
                 <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 px-sm-4 c_intro h-fit">
                     <h2 class="mb-2 px-lg-4 ">Hi, I'm</h2>
@@ -90,7 +109,7 @@
                     </div> -->
                 </div>
 
-                <div class="col-lg-5 col-md-12  col-sm-12 col-xs-12 d-flex justify-content-evenly header-img-column">
+                <div class="col-lg-5 col-md-12  col-sm-12 col-xs-12 d-flex justify-content-evenly mt-4 pt-5">
                     <!-- <div class="header-img-box position-absolute rounded-circle">
                     </div> -->
 
@@ -198,8 +217,8 @@
                                             Bio</a>
                                         <div class="content">
                                             <div class="inner-content">
-                                                <p class="sub-list pb-1 d-flex justify-content-between"><b>Nationality: </b><span
-                                                        class="bio ms-4">Nigerian</span></p>
+                                                <p class="sub-list pb-1 d-flex justify-content-between"><b>Nationality:
+                                                    </b><span class="bio ms-4">Nigerian</span></p>
                                                 <p class="sub-list pb-1">
                                                     <b>State Of Origin: </b> <span class="bio ms-4">Anambra</span>
                                                 </p>
@@ -223,160 +242,31 @@
             </div>
         </div>
 
+        <!-- Achievements section -->
         <div class="container-fluid">
             <div class="row px-lg-5 px-md-5">
                 <h6 class="mb-lg-3 px-3 c_small fw-bold">Achievements</h6>
 
                 <p class="about-content p-3">
-                    Hon. Pete Ibida possesses a proven track record of excellence. After successfully completing the National Youth ServiceCorps (NYSC) Program at Tabs Assurance Ltd (African Overseas Insurance Ltd), Enugu, he was retained and achieved three promotions within a year. He ascended to the esteemed position of Company Secretary and Personnel Manager before deciding to move on. <br><br>
+                    Hon. Pete Ibida possesses a proven track record of excellence. After successfully completing the
+                    National Youth ServiceCorps (NYSC) Program at Tabs Assurance Ltd (African Overseas Insurance Ltd),
+                    Enugu, he was retained and achieved three promotions within a year. He ascended to the esteemed
+                    position of Company Secretary and Personnel Manager before deciding to move on. <br><br>
 
                     <span>
-                        As the CEO of Piekle International Ltd, Hon. Pete Ibida consistently demonstrated a high level of professionalism and strategic focus in the Oil and Gas industry. This resulted in strong partnerships with major industry players, including Shell Petroleum Development Company (SPDC) and other key stakeholders. He led Piekle International Ltd. with unwavering dedication, overseeing operations across various Oil Fields and Flow Stations.
+                        As the CEO of Piekle International Ltd, Hon. Pete Ibida consistently demonstrated a high level
+                        of professionalism and strategic focus in the Oil and Gas industry. This resulted in strong
+                        partnerships with major industry players, including Shell Petroleum Development Company (SPDC)
+                        and other key stakeholders. He led Piekle International Ltd. with unwavering dedication,
+                        overseeing operations across various Oil Fields and Flow Stations.
                     </span> <br><br>
 
-                    His legislative journey was equally impactful. He served as the Chief Whip of the Anambra State House
+                    His legislative journey was equally impactful. He served as the Chief Whip of the Anambra State
+                    House
                     of Assembly and was later elected as the Majority Leader during the 7th Assembly due to my
                     significant contributions. He remains deeply committed to core values, including integrity,
                     professionalism, diligence, and a strong sense of philanthropy
                 </p>
-            </div>
-        </div>
-
-        <!-- priority section -->
-        <div class="c_debut-2">
-            <div class="container-fluid" id="priorities">
-                <div class="row c_debut-3 px-lg-5 px-md-5">
-                    <h6 class="mb-lg-3 px-3 c_small fw-bold">Awards</h6>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 px-lg-3 ">
-
-                        <h2 class="fs-4 mobile-main-text priority-main-head mb-0">Distinguished Awards
-                        </h2>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 px-lg-5 about-content  c_issues">
-                        <ul>
-                            <li>Distinguished Legislator by the Anambra State three Chambers of commerce: Awka, Onitsha
-                                and Nnewi: 2016</li>
-                            <li>Community Philanthropist Award by the Anambra State ministry of health (March, 2018)
-                            </li>
-                            <li>Justice of Peace (JP) by the Chief Judge of Anambra State in Jan 2018</li>
-                            <li>Nimo Town Development Union Certificate of recognition for Philanthropy and community
-                                Development on 26th Dec. 2018.</li>
-                            <li>Chairman publicity committee, Peter University Achina/Onne Anambra state.</li>
-                            <li>Recipient of the prestigious Chieftaincy title Onyeodigolumma by HRM Igwe John
-                                Okafor-Agilo of blessed memory, the Owelle of Nimo: Dec, 2008 while Jan. 2020 the Igwe,
-                                Maxi Ike Oliobi Owelle of Nimo elevated him to High Chief: IDE NIMO.</li>
-                            <li>Conferment of UGWUMBA ABAGANA by, Igwe Mbamalu Okeke of Abagana (2016) </li>
-                            <li>Conferment of UGONWANNE OF ABBA by Igwe L.C Ezeh of Abba (2017)</li>
-                            <li>Conferment of AKALUGO AWKA. by HRM Igwe Gibson Nwosu Obi of Awka (2021)</li>
-                            <li>An award of “Excellence in Oil and Gas Services and Engineering”, by the National
-                                Institute of Marketing of Nigeria, Anambra State: 2009.</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="row px-lg-5 px-md-5">
-                    <h2 class="fs-4 text-center px-4 mobile-main-text priority-main-head mb-2 p-2">Academic Awards
-                    </h2>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 c_issues-2 px-lg-4 px-md-4 py-sm-3">
-                        <div class="issue-title d-flex gap-3 justify-content-center align-items-center">
-                            <div class="flag-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-star" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
-                                </svg>
-                            </div>
-                            <!-- <h5 class="mb-0 issue-title-text fs-4">Awareness</h5> -->
-                        </div>
-                        <p class="issue-content p-3 text-center">Fellow, Institute of Management Consultants (2019).</p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 c_issues-2 px-lg-4 px-md-4 py-sm-3">
-                        <div class="issue-title d-flex gap-3 justify-content-center align-items-center">
-                            <div class="flag-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-star" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
-                                </svg>
-                            </div>
-                            <!-- <h5 class="mb-0 issue-title-text fs-4">Awareness</h5> -->
-                        </div>
-                        <p class="issue-content p-3 text-center">Fellow, The Institute of Public Administration of
-                            Nigeria (2007) .
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 c_issues-2 px-lg-4 px-md-4 py-sm-3">
-                        <div class="issue-title d-flex gap-3 justify-content-center align-items-center">
-                            <div class="flag-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-star" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
-                                </svg>
-                            </div>
-                            <!-- <h5 class="mb-0 issue-title-text fs-4">Awareness</h5> -->
-                        </div>
-                        <p class="issue-content p-3 text-center">Distinction in Time Management, London Graduate School,
-                            London, 26th Nov. 2019.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 c_issues-2 px-lg-4 px-md-4 py-sm-3">
-                        <div class="issue-title d-flex gap-3 justify-content-center align-items-center">
-                            <div class="flag-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-star" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
-                                </svg>
-                            </div>
-                            <!-- <h5 class="mb-0 issue-title-text fs-4">Awareness</h5> -->
-                        </div>
-                        <p class="issue-content p-3 text-center">Practicing license (Global) the institute of Management
-                            Consultants (2019).
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 c_issues-2 px-lg-4 px-md-4 py-sm-3">
-                        <div class="issue-title d-flex gap-3 justify-content-center align-items-center">
-                            <div class="flag-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-star" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
-                                </svg>
-                            </div>
-                            <!-- <h5 class="mb-0 issue-title-text fs-4">Awareness</h5> -->
-                        </div>
-                        <p class="issue-content p-3 text-center">Honourary Doctorate degree in Business Administration
-                            (Honoris causa) by Stone University, Israel in 2015 for Oil and Gas project management.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 c_issues-2 px-lg-4 px-md-4 py-sm-3">
-                        <div class="issue-title d-flex gap-3 justify-content-center align-items-center">
-                            <div class="flag-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-star" viewBox="0 0 16 16">
-                                    <path
-                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
-                                </svg>
-                            </div>
-                            <!-- <h5 class="mb-0 issue-title-text fs-4">Awareness</h5> -->
-                        </div>
-                        <p class="issue-content p-3 text-center">Fellow, Community Development and Integrity Award FHNR,
-                            CDTA by the National Institute of Human and National Resources (May, 2016).
-                        </p>
-                    </div>
-                </div>
-
-
-
-
             </div>
         </div>
 
@@ -451,7 +341,8 @@
                 <div class="form-left lh-lg ">
                     <h2 class="">Contact information</h2>
                     <p class="form-left-content">
-                        I would love to hear from you! Please don't hesitate to reach out I am open to new ideas which can be explored to better our society through innovation.
+                        I would love to hear from you! Please don't hesitate to reach out I am open to new ideas which
+                        can be explored to better our society through innovation.
                     </p>
 
                     <div class="d-flex flex-column sub-content gap-4 ">
@@ -574,7 +465,22 @@
 
 
 
-    <script src="assets/js/slider.js"></script>
+    <script>
+        var mobileMenuBtn = document.querySelector("#mobile-menu-btn");
+        var mobileMenu = document.querySelector(".mobile-menu");
+
+        mobileMenuBtn.addEventListener("click", () => {
+            if (mobileMenu.style.display === "none") {
+                mobileMenu.style.display = "flex";
+                mobileMenuBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+            }
+            else {
+                mobileMenu.style.display = "none";
+                mobileMenuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            }
+        });
+
+    </script>
 </body>
 
 

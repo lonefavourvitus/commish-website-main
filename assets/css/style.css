@@ -2,7 +2,7 @@
   --c_space: 13% 0;
   --c_size: 25px;
   --c_color: #ffad42de;
-  --c_color-2: #B78700;
+  --c_color-2: #b78700;
   --c_color-3: #000000ef;
 }
 html {
@@ -26,7 +26,7 @@ a {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   color: var(--c_color-3);
@@ -55,9 +55,7 @@ body {
 .c_bg {
   /* height: 95vh; */
   /* background-color: var(--c_color); */
-  background-image: linear-gradient(to right bottom,
-      #00000066,
-      #00000066),
+  background-image: linear-gradient(to right bottom, #00000066, #00000066),
     url(../images/anambra-flagjpg.jpg);
   background-size: cover;
   background-position: top;
@@ -78,7 +76,7 @@ body {
   font-size: 16px;
 }
 
-.c_nav-list>a>li {
+.c_nav-list > a > li {
   color: var(--c_color-2);
   list-style: none;
   font-size: 18px;
@@ -90,7 +88,7 @@ body {
   border-top: 1px solid var(--c_color-2);
 }
 
-.c_intro>h1 {
+.c_intro > h1 {
   font-size: 56px;
   font-weight: 500;
   line-height: 85.04px;
@@ -115,12 +113,12 @@ body {
   top: 34%;
 }
 
-.bio{
+.bio {
   /* width: 30%; */
   display: inline-block;
 }
 
-.inner-content>p{
+.inner-content > p {
   display: flex;
   /* width: 90%; */
   justify-content: space-between;
@@ -129,12 +127,12 @@ body {
   object-fit: cover;
   width: 100%;
 }
-.books-btn-box>.books-btn {
+.books-btn-box > .books-btn {
   margin: 0 auto;
-  color: #FFF;
+  color: #fff;
   background: var(--c_color-2);
 }
-.books-btn-box{
+.books-btn-box {
   padding-top: 185px;
 }
 .books-btn:hover {
@@ -142,8 +140,12 @@ body {
   background-color: transparent;
   border-width: 1px;
   border-style: solid;
-  border-image:
-    linear-gradient(85deg, var(--c_color-2) 0%, var(--c_color-3) 100%) 1;
+  border-image: linear-gradient(
+      85deg,
+      var(--c_color-2) 0%,
+      var(--c_color-3) 100%
+    )
+    1;
 }
 .action-btn {
   display: flex;
@@ -153,8 +155,8 @@ body {
   align-items: center;
   gap: 8px;
   border-radius: 8px;
-  border: 1px solid #FFF;
-  background: #FFF;
+  border: 1px solid #fff;
+  background: #fff;
   color: var(--c_color-2);
 }
 
@@ -181,17 +183,17 @@ body {
   position: relative;
 }
 
-.c_nav-list>a:hover {
+.c_nav-list > a:hover {
   color: #000;
   /* font-weight: 500; */
 }
 
-.c_nav-list>a:active {
+.c_nav-list > a:active {
   color: var(--c_color-2);
   font-weight: 600;
 }
 
-.c_debut>h2 {
+.c_debut > h2 {
   font-size: 3.85rem;
   font-weight: 700;
 }
@@ -204,8 +206,8 @@ body {
   padding: 4% 0;
 }
 
-.c_issues>h4 {
-  color: #7A7A7A;
+.c_issues > h4 {
+  color: #7a7a7a;
 
   font-size: 18px;
   font-style: normal;
@@ -222,8 +224,8 @@ body {
   padding: 0 0 52px;
 }
 
-.c_issues-2>p {
-  color: rgba(0, 0, 0, .78);
+.c_issues-2 > p {
+  color: rgba(0, 0, 0, 0.78);
 }
 
 .c_about-content {
@@ -231,7 +233,7 @@ body {
   line-height: 1.35em;
 }
 
-.c_about>h6 {
+.c_about > h6 {
   font-size: 1rem;
   line-height: 1.25em;
   text-transform: uppercase;
@@ -246,9 +248,9 @@ body {
   object-fit: contain;
 }
 
-.c_about-list>li {
+.c_about-list > li {
   list-style-type: none;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 
 .c_image-2 {
@@ -259,7 +261,7 @@ body {
 }
 
 .about-caption {
-  color: #2B2B2B;
+  color: #2b2b2b;
 
   font-size: 48px;
   font-style: normal;
@@ -270,7 +272,7 @@ body {
 }
 
 .about-content {
-  color: #7A7A7A;
+  color: #7a7a7a;
 
   font-size: 16px;
   font-style: normal;
@@ -281,12 +283,12 @@ body {
 .about-sections {
   display: flex;
   width: 100%;
-  color: #2B2B2B;
+  color: #2b2b2b;
   padding: 16px 40px 16px 20px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 10px;
-  border: 1px solid #B78700;
+  border: 1px solid #b78700;
 }
 
 .svg-vicion-list {
@@ -300,7 +302,7 @@ body {
 }
 
 .priority-main-head {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-size: 2.3rem;
   font-style: normal;
   font-weight: 600;
@@ -321,7 +323,7 @@ body {
   align-items: center;
   gap: 10px;
   border-radius: 999px;
-  background: #B78700;
+  background: #b78700;
   color: #fff;
 }
 
@@ -333,7 +335,7 @@ body {
 }
 
 .issue-content {
-  color: #7A7A7A;
+  color: #7a7a7a;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -353,7 +355,7 @@ body {
   position: relative;
 }
 
-.c_events>h6 {
+.c_events > h6 {
   font-size: 20px;
 }
 
@@ -372,7 +374,7 @@ body {
 }
 
 .footer-link {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-size: 20px;
   font-weight: 500;
   list-style: none;
@@ -402,11 +404,11 @@ body {
   font-size: 15px;
 }
 
-.c-wiki>a {
+.c-wiki > a {
   color: var(--c_color-2);
 }
 
-.c-wiki>a:hover {
+.c-wiki > a:hover {
   color: var(--c_color-3);
   border-bottom: 1px solid var(--c_color-2);
 }
@@ -441,15 +443,14 @@ body {
   max-height: fit-content;
 }
 
-.project>a {
+.project > a {
   width: 50%;
   padding: 12px 10px;
   font-size: 14px;
 }
 
-.project>a:hover {
+.project > a:hover {
   color: var(--c_color-3) !important;
-
 }
 
 .works {
@@ -462,7 +463,6 @@ body {
   row-gap: 65px;
   justify-content: center;
 }
-
 
 .c_view {
   margin: 0 auto;
@@ -497,7 +497,7 @@ body {
 }
 
 /* Responsive Mobile phones */
-@media only screen and (max-width:540px) {
+@media only screen and (max-width: 540px) {
   body {
     text-align: center;
   }
@@ -531,8 +531,7 @@ body {
 
   .c_nav {
     background-color: #fff !important;
-    justify-content: start !important;
-    padding: 0 20px;
+    padding: 0px 20px;
     opacity: 0.8;
   }
 
@@ -542,17 +541,15 @@ body {
   .carousel {
     margin-top: 60px !important;
   }
-  .carousel__prev, .carousel__next {
-    font-size: 35px !important;
-    bottom: -12% !important;
+ 
+  .vision-section {
+    padding: 0px 0;
   }
-  .carousel__prev i, .carousel__next i{
-    font-size: 45px !important;
-  }
-  .books-btn-box{
+
+  .books-btn-box {
     padding-top: 105px !important;
   }
-  .c_intro>h1 {
+  .c_intro > h1 {
     font-size: 2.03rem;
     line-height: normal;
   }
@@ -568,7 +565,7 @@ body {
     line-height: 30px;
   }
 
-  .c_debut>h2 {
+  .c_debut > h2 {
     font-size: var(--c_size);
   }
 
@@ -580,20 +577,20 @@ body {
     padding: var(--c_space);
   }
 
-  .c_header{
+  .c_header {
     padding: 10px 0px 0px;
   }
 
-  .c_issues>h4 {
+  .c_issues > h4 {
     font-size: 20px;
   }
 
-  .c_issues-2>h5 {
+  .c_issues-2 > h5 {
     font-size: 18px;
   }
 
   .c_img-2 {
-    width: 50%;
+    width: 65%;
     object-position: center;
   }
 
@@ -603,7 +600,7 @@ body {
     line-height: 1.35em;
   }
 
-  .c_about>h5 {
+  .c_about > h5 {
     font-size: 1rem;
   }
 
@@ -653,7 +650,7 @@ body {
 }
 
 /* Responsive Tablets */
-@media only screen and (max-width:915px) and (min-width:541px) {
+@media only screen and (max-width: 915px) and (min-width: 541px) {
   body {
     text-align: center;
   }
@@ -682,14 +679,16 @@ body {
   .carousel {
     margin-top: 40px !important;
   }
-  .carousel__prev, .carousel__next {
+  .carousel__prev,
+  .carousel__next {
     font-size: 35px !important;
     bottom: -12% !important;
   }
-  .carousel__prev i, .carousel__next i{
+  .carousel__prev i,
+  .carousel__next i {
     font-size: 45px !important;
   }
-   .books-btn-box{
+  .books-btn-box {
     padding-top: 105px !important;
   }
   .issue-title {
@@ -707,7 +706,7 @@ body {
     padding: 0 20px;
   }
 
-  .c_intro>h1 {
+  .c_intro > h1 {
     font-size: 2.075rem;
     line-height: normal;
   }
